@@ -3,9 +3,6 @@
 **Table of Contents**
 - [BASIC formating on GitHub markdown file](#basic-formating-on-github-markdown-file)
   - [Headings](#headings)
-- [Largest Heading](#largest-heading)
-  - [Second largest Heading](#second-largest-heading)
-          - [Smallest Heading](#smallest-heading)
   - [Styling text](#styling-text)
   - [Quoting](#quoting)
       - [Quoting text](#quoting-text)
@@ -21,8 +18,6 @@
   - [Hiding content with comments](#hiding-content-with-comments)
   - [Ignoring Markdown formatting](#ignoring-markdown-formatting)
   - [Creating a collapsed section](#creating-a-collapsed-section)
-      - [We can hide anything, even code!](#we-can-hide-anything-even-code)
-      - [We can hide anything, even code!](#we-can-hide-anything-even-code-1)
   - [References](#references)
 
 ## Headings
