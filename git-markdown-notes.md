@@ -1,7 +1,7 @@
 # BASIC formating on GitHub markdown file 
 
 ## Headings
-  Six levels of heading determined by the number of **#**
+  Six levels of heading determined by the number of preceeding **#**
 
   ````
   # Largest Heading
@@ -11,7 +11,7 @@
    
 ## Styling text
 
-You can set text style of bold, italic, strikethrough, subscript, or superscript.
+You can set text style of bold, italic, subscript, or superscript.
 
 |Style	|Syntax	|Keyboard shortcut	|Example	|Output|
 |---|---|---|---|---|
@@ -29,14 +29,14 @@ You can set text style of bold, italic, strikethrough, subscript, or superscript
 
   > Text that is a quote
 
-
+  <br/>
   #### Quoting code
   
   Single backticks ( **\` \`** ) is used for inline quoting. Keyboard shortcut: `Ctrl` + `E`
   
   **Example:** Use `git init` to initiate a git repository    
 
-  \
+  <br/>
   Use triple backticks ( **\`\`\` \`\`\`** ) for its own distinct block of code.
   
   **Example:**
@@ -65,7 +65,8 @@ You can set text style of bold, italic, strikethrough, subscript, or superscript
   
   This site was built using [GitHub Pages](https://pages.github.com/)
   
-  
+  <br/>
+
   ### Section links
   You can link directly to a section in a rendered file by hovering over the section heading to expose [right click and copy] the link:
   
