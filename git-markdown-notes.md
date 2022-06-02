@@ -1,12 +1,37 @@
-# BASIC formating on GitHub markdown file 
+# BASIC formating on GitHub markdown file <!-- omit from toc -->
+**Table of Contents**
+
+- [BASIC formating on GitHub markdown file](#basic-formating-on-github-markdown-file)
+  - [Headings](#headings)
+- [Largest Heading](#largest-heading)
+  - [Second largest Heading](#second-largest-heading)
+          - [Smallest Heading](#smallest-heading)
+  - [Styling text](#styling-text)
+  - [Quoting](#quoting)
+      - [Quoting text](#quoting-text)
+      - [Quoting code](#quoting-code)
+  - [Links](#links)
+    - [Section links](#section-links)
+    - [Relative links](#relative-links)
+  - [Lists](#lists)
+    - [Nested Lists](#nested-lists)
+  - [Using emoji](#using-emoji)
+  - [Paragraphs](#paragraphs)
+  - [Footnotes](#footnotes)
+  - [Hiding content with comments](#hiding-content-with-comments)
+  - [Ignoring Markdown formatting](#ignoring-markdown-formatting)
+  - [Creating a collapsed section](#creating-a-collapsed-section)
+      - [We can hide anything, even code!](#we-can-hide-anything-even-code)
+      - [We can hide anything, even code!](#we-can-hide-anything-even-code-1)
+  - [References](#references)
 
 ## Headings
   Six levels of heading determined by the number of preceeding **#**
 
   ````
-  # Largest Heading
-  ## Second largest Heading
-  ###### Smallest Heading
+  # Largest Heading <!-- omit from toc -->
+  ## Second largest Heading <!-- omit from toc -->
+  ###### Smallest Heading <!-- omit from toc -->
   ````   
    
 ## Styling text
@@ -191,7 +216,7 @@ Any Markdown within the `<details>` block will be collapsed until the reader cli
 ````
 <details><summary>CLICK ME</summary>
 
-#### We can hide anything, even code!
+#### We can hide anything, even code! <!-- omit from toc -->
 
     ```python
       print("Hello World")
@@ -201,7 +226,7 @@ Any Markdown within the `<details>` block will be collapsed until the reader cli
   
 <details><summary>CLICK ME</summary>
 
-#### We can hide anything, even code!
+#### We can hide anything, even code! <!-- omit from toc -->
 
     ```python
       print("Hello World")
@@ -217,3 +242,4 @@ Any Markdown within the `<details>` block will be collapsed until the reader cli
 
 [Organizing information with collapsed sections](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections)
   
+[Markdown Support for Visual Studio Code](https://github.com/yzhang-gh/vscode-markdown)
