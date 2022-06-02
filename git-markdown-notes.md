@@ -1,6 +1,6 @@
 # BASIC formating on GitHub markdown file <!-- omit from toc -->
-**Table of Contents**
 
+**Table of Contents**
 - [BASIC formating on GitHub markdown file](#basic-formating-on-github-markdown-file)
   - [Headings](#headings)
 - [Largest Heading](#largest-heading)
