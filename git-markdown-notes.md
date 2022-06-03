@@ -48,15 +48,17 @@ You can set text style of bold, italic, subscript, or superscript.
   Text that is not a quote
 
   > Text that is a quote
-
-  <br/>
+  
+  <br>
+  
   #### Quoting code
   
   Single backticks ( **\` \`** ) is used for inline quoting. Keyboard shortcut: `Ctrl` + `E`
   
   **Example:** Use `git init` to initiate a git repository    
 
-  <br/>
+  <br>
+  
   Use triple backticks ( **\`\`\` \`\`\`** ) for its own distinct block of code.
   
   **Example:**
@@ -79,7 +81,7 @@ You can set text style of bold, italic, subscript, or superscript.
   
   > You can create an inline link by wrapping link text in brackets `[ ]`, and then wrapping the URL in parentheses `( `). You can also use the keyboard shortcut `Command+K` to create a link. When you have text selected, you can paste a URL from your clipboard to automatically create a link from the selection.
   
-  Putting direct link also works:
+  Putting direct link also work:
   
   This site was built using \[GitHub Pages\](https://pages.github.com/)
   
