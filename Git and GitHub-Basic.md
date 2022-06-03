@@ -18,14 +18,14 @@
 
   ##	Basic Git Bash Commands
   ```
-  mkdir <temp-folder>		        # Creating a folder named <temp-folder>
-  cd <folder-name>			        # Change current directory (changing folder)
-  touch <filename.extension>	  # To create <filename.extension> file
-  echo <first-sentence> > <file-name>	    # write <first-sentence> to <file-name>
-  echo <second-sentence> >> <file-name>	  # append <second-sentence>
+  mkdir <temp-folder>                      # creating a folder named <temp-folder>
+  cd <folder-name>                         # change current directory (changing folder)
+  touch <filename.extension>               # to create <filename.extension> file
+  echo <first-sentence> > <file-name>      # write <first-sentence> to <file-name>
+  echo <second-sentence> >> <file-name>    # append <second-sentence>
   
-  code <file-name>		          # open <file-name> file in vscode
-  clear 			                  # Clear the git Bash command window
+  code <file-name>		                 # open <file-name> file in vscode
+  clear 			                         # clear the git Bash command window
   ```
 
   ##	Configure Git
@@ -38,7 +38,7 @@
   ```
   git config –-global user.name “Dipayan Biswas”
   git config –-global user.email dipayan1109033@gmail.com
-  git config –-global core.editor “code –-wait”   # wait for vscode to be closed
+  git config –-global core.editor “code –-wait”             # wait for vscode to be closed
   ```
 
   If you don’t config default editor, “git commit” command will open vim editor to type message for the commit. [In vim editor, **press “i”** for insert mode, then type your commit message. **Press esc** to return from the insert mode and lastly **type “:wq” + enter** to exit from vim editor]
@@ -47,35 +47,35 @@
 
   ```
   git config –-global -e
-  git config --global --list	  # Show list of configurations already made 
+  git config --global --list	      # shows list of configurations already made 
   ```
 
   Configuring line ending for users from different operating system
   When working with multiple users working different operating system
 
   ```
-  git config –-global core.autocrlf true	  # for windows user
-  git config –-global core.autocrlf input	  # for MAC or Linux user
+  git config –-global core.autocrlf true	      # for windows user
+  git config –-global core.autocrlf input	      # for MAC or Linux user
   ```
 
   ##	Basic Git Commands
   
   ```
-  git init		      # Initialize local git repository
-  git add <file(s)>	# Add file(s) to staging area (index)
-  git status		    # Check status of working tree
-  git commit		    # Commit changes in index to local repository
+  git init                # initialize local git repository
+  git add <file(s)>	    # add file(s) to staging area (index)
+  git status		        # check status of working tree
+  git commit		        # commit changes in index to local repository
   ```
   The followings commands require to link remote repository beforehand  
 
   ```
-  git push		    # Push to remote repository
-  git pull		    # Pull the latest from remote repository
+  git push		        # push to remote repository
+  git pull		        # pull the latest from remote repository
   ```
   It requires when working with multiple peoples
 
   ```
-  git clone		    # Clone remote repository into a new local directory
+  git clone		        # clone remote repository into a new local directory
   ```
 
   #	Cheat Sheet
@@ -118,36 +118,37 @@
   We add the modified files to the staging area or index, review our changes and if everything is good then we’ll make a commit.
 
   ```
-  git status	        # To see the status of the working directory and the staging area
-  git add <file1.txt>	# Add <file1.txt>
-  git add *.txt		    # Add all .txt files
-  git add .			      # Add all files
+  git status	                # to see the status of the working directory and the staging area
+  git add <file1.txt>	        # add <file1.txt>
+  git add *.txt		        # add all .txt files
+  git add .			        # add all files
 
   git commit – m “<commit message>”
   ```
   When you want to add large message to explain some details, use
 
   ```
-  git commit	  # open default editor, write comments [with a heading line, give one blank line and then your description] and close the file.
+  git commit	      # open default editor
+  # write comments [with a heading line, give one blank line and then your description] and close the file.
   ```
   ```
-  git commit -a -m “<commit message>”	  # Do commit skipping the staging area
-  git commit -am “<commit message>” 	  # Another format but work like above
+  git commit -a -m “<commit message>”	    # do commit skipping the staging area
+  git commit -am “<commit message>” 	    # another format but work like above
   ```
 
   ##	Removing Files
   Remove files from both working directory and staging area
 
   ```
-  git rm <file2.txt>	      # Remove <file2.txt>
+  git rm <file2.txt>	            # remove <file2.txt>
   git rm *.txt
   ```
   ```
-  git rm –-cached <file3.txt>	  # remove file(s) only from staging area
+  git rm –-cached <file3.txt>	    # remove file(s) only from staging area
   git rm –-cached -r output/		# remove files only from staging area [here, -r is for recursive removal from the directory]
   ```
   ```
-  git mv <main.js> <file3.js>	# Renaming or moving file <main.js> to <file3.js>
+  git mv <main.js> <file3.js>	    # renaming or moving file <main.js> to <file3.js>
   ```
 
   ##	Ignoring Files
@@ -156,7 +157,7 @@
   git add .gitignore
   ```
   ```
-  echo logs-folder/ > .gitignore	  # write “logs-folder/” to .gitignore file
+  echo logs-folder/ > .gitignore	    # write “logs-folder/” to .gitignore file
   echo input-images/ >> .gitignore	# append “input-images/” to gitignore file
   code .gitignore		                # open .gitignore file in vscode
 
@@ -167,16 +168,16 @@
   If you already had included in past commit, we need to remove the file(s) from the staging area 
 
   ```
-  git ls-files	                # shows file in the staging area
-  git rm –-cached -r output/		# remove files only from staging area or index [here, -r is for recursive removal from the directory]
+  git ls-files	                  # shows file in the staging area
+  git rm –-cached -r output/		  # remove files only from staging area or index [here, -r is for recursive removal from the directory]
   git commit -m “remove accidently added <folder> from the repository”
   ```
 
   ##	Git  Status and History
 
   ```
-  git status	            # general use of status
-  git status -s 	        # short form of status. 
+  git status	                   # general use of status
+  git status -s 	               # short form of status. 
   On the left gives two info: [??]/[MM]/[AA]/[DD]> [staging-area-status working-directory-status]
   ```
   ```
@@ -199,20 +200,20 @@
   To config vscode as out default devtool [2 steps] to view changes
 
   ```
-  git config --global diff.tool vscode	  # just naming our default devtool
+  git config --global diff.tool vscode	      # just naming our default devtool
   git config --global difftool.vscode.cmd “code --wait --diff $LOCAL $REMOTE”
   ```
   **Note:** vscode needs to be added to path so that it can be run just typing “code” + enter from any directory
 
   ```
-  git config --global -e    # opening .gitconfig in vscode and check if previous command reflects in the .gitconfig file. If not, correct that.
+  git config --global -e          # opening .gitconfig in vscode and check if previous command reflects in the .gitconfig file. If not, correct that.
   ```
 
   Now to see diff through vs code
 
   ```
-  git difftool		        # may ask for permission [y/n]
-  git difftool --staged	  # may ask for permission [y/n]
+  git difftool		            # may ask for permission [y/n]
+  git difftool --staged	        # may ask for permission [y/n]
   ```
 
   ##	Viewing a Commit
@@ -253,13 +254,13 @@
   ### Discard the local changes 
 
   ```
-  git restore file1.txt	# git took a copy from the staging area 
+  git restore file1.txt	        # git took a copy from the staging area 
   ```
   ### To remove all untracked files
 
   ```
   git clean -h
-  git clean -fd	    # “f” for force, “d” for remove whole directory
+  git clean -fd	                # “f” for force, “d” for remove whole directory
   ```
 
   ### Restoring a File to an Earlier Version
@@ -273,8 +274,8 @@
   Creating branches help to work on different tasks independently and parallel. Also, it keeps the main branch running fine without affecting by the development bugs.
 
   ```
-  git branch <branch-name>	      # create a new branch with <branch-name>
-  git checkout <branch-name>      # switch to another branch with name <branch-name>
+  git branch <branch-name>	        # create a new branch with <branch-name>
+  git checkout <branch-name>          # switch to another branch with name <branch-name>
   git merge <other-branch-name>		# merge <other-branch-name> to the executing branch
   ```
 
@@ -283,8 +284,8 @@
   Create a GitHub repository on https://github.com/ and copy the web URL of the repository having *.git extension.
 
   ```
-  git remote		  # check whether you have already linked to an existing remote repository
-  git ls-remote	  # Displays references available in a remote repository along with the associated commit IDs.
+  git remote		      # check whether you have already linked to an existing remote repository
+  git ls-remote	      # displays references available in a remote repository along with the associated commit IDs.
   ```
   ```
   git remote add origin <remote-repo-url>	# add remote repository with name “origin”
@@ -293,7 +294,7 @@
   Here, the -u flag adds a tracking reference to the upstream server you are pushing to. It lets you do a git pull without supplying any more arguments. 
 
   ```
-  git pull	  # Incorporates changes from a remote repository 
+  git pull	            # incorporates changes from a remote repository 
   ```
 
   ##	Miscellaneous
