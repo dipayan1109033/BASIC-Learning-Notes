@@ -1,5 +1,39 @@
 # Git and GitHub-Basic
 
+**Table of Contents**
+
+- [Git and GitHub-Basic](#git-and-github-basic)
+  -	[Introduction](#introduction)
+  -	[Using Git](#using-git)
+  -	[Basic Git Bash Commands](#basic-git-bash-commands)
+  -	[Configure Git](#configure-git)
+  -	[Basic Git Commands](#basic-git-commands)
+  -	[Cheat Sheet](#cheat-sheet)
+  -	[Getting Help](#getting-help)
+  -	[Best Practice](#best-practice)
+    - [Commit](#commit)
+    - [Commit Message](#commit-message)
+  -	[Working with Git](#working-with-git)
+  -	[Removing Files](#removing-files)
+  -	[Ignoring Files](#ignoring-files)
+  -	[Git Status and History](#git-status-and-history)
+  -	[View the Changes](#view-the-changes)
+  -	[Viewing a Commit](#viewing-a-commit)
+    - [Viewing details for a specific commit \[2 ways\]](#viewing-details-for-a-specific-commit-2-ways)
+    - [To see final version for a specific commit](#to-see-final-version-for-a-specific-commit)
+    - [To see all the files for a specific commit](#to-see-all-the-files-for-a-specific-commit)
+  -	[Git Restore Files](#git-restore-files)
+    - [To restore files from staging area](#to-restore-files-from-staging-area)
+    - [Discard the local changes](#discard-the-local-changes)
+    - [To remove all untracked files](#to-remove-all-untracked-files)
+    - [Restoring a file to an Earlier Version](#restoring-a-file-to-an-earlier-version)
+  -	[Git Branch](#git-branch)
+  -	[Working with GitHub](#working-with-github)
+  -	[Miscellaneous](#miscellaneous)
+    - [Check if current directory is a Git repository](#check-if-current-directory-is-a-git-repository)
+  -	[References](#references)
+
+  <br>
 
   ##	Introduction
   -	git is a Version Control System (VCS) for tracking changes in computer files.
@@ -173,7 +207,7 @@
   git commit -m “remove accidently added <folder> from the repository”
   ```
 
-  ##	Git  Status and History
+  ##	Git Status and History
 
   ```
   git status	                   # general use of status
