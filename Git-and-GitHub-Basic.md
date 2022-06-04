@@ -351,6 +351,8 @@
 
   Great introduction to use git inside of vscode:<br>
   [How to use Git inside of VSCode - 2020](https://www.youtube.com/watch?v=F2DBSH2VoHQ)
+
+  Basic web material: [Introduction to Git](https://www.notion.so/zarkom/Introduction-to-Git-ac396a0697704709a12b6a0e545db049)
   
   [Official git Documentation](https://git-scm.com/doc)
   
