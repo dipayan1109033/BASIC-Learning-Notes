@@ -54,8 +54,11 @@ rename [drive:][path]filename1 filename2.
 ### del 
 -	Deletes one or more files.
 
+
 ### mkdir
 - Removes (deletes) a directory.
+
+
   
    
   
