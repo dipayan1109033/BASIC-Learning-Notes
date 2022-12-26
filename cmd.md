@@ -15,6 +15,7 @@
   - [copy \[path\\file.ext\] \[path\\newfile.ext\]](#copy-pathfileext-pathnewfileext)
   - [del](#del)
   - [mkdir](#mkdir)
+    - [mkdir /s](#mkdir-s)
 - [References](#references)
 
 
@@ -58,9 +59,8 @@ rename [drive:][path]filename1 filename2.
 ### mkdir
 - Removes (deletes) a directory.
 
-
-  
-   
+#### mkdir /s      
+- Removes all directories and files in the specified directory in addition to the directory itself.  Used to remove a directory tree.
   
 ## References
 
