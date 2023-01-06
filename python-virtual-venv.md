@@ -7,7 +7,8 @@
     - [`pip help`](#pip-help)
     - [`pip help [specific-command]`](#pip-help-specific-command)
     - [`pip list`](#pip-list)
-  - [Virtual environment](#virtual-environment)
+  - [Creating virtual environment](#creating-virtual-environment)
+  - [With specific python version](#with-specific-python-version)
 - [Virtual Environment using VS Code](#virtual-environment-using-vs-code)
 - [References](#references)
 
@@ -26,7 +27,7 @@
 #### `pip list` 
 -	Displays list of all python packages installed 
 
-### Virtual environment
+### Creating virtual environment
 1. Step 01: Change directory to project folder
 2. Step 02: Create virtual environment
 3. Step 03: Activate it
@@ -70,6 +71,14 @@ To recreate the same environment, at first create a new virtual environment, act
 pip install -r requirements.txt
 ```
   
+### With specific python version
+
+Run venv with a specific python version. You can run using the full path where python is installed.
+
+```
+"C:\Program Files\Python38\python.exe" -m venv venv38
+```
+
 ## Virtual Environment using VS Code
   
 We can create a virtual environment similar way explained above using **cmd**.
