@@ -42,15 +42,18 @@ python -m venv env-name --system-site-packages
 ```
 `--system-site-packages` gives access to the system site-packages directory [all system packages] 
 
-Update the `pip` in the virtual environment:
-```
-python -m pip install --upgrade pip
-```
+
 Then, you need to activate the newly created virtual environment **env-name** by
 ```
 env-name\Scripts\activate.bat
 ```
-Now, if you install packages using `pip`, all the packages will be installed only in the virtual environment **env-name**
+
+Update the `pip` in the virtual environment:
+```
+python -m pip install --upgrade pip
+```
+
+Now, if you install packages using `pip`, all the packages will be installed only in the virtual environment **env-name**.
 
 To deactivate the current virtual environment, just write the following
 ```
